@@ -1,0 +1,87 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.calendar-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+}
+#heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#month {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+#year {
+  font-size: 20px;
+  cursor: pointer;
+  border-bottom: 1px dashed #999;
+  margin-right: 10px;
+}
+#year-text-box {
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+}
+.today-cell {
+  background-color: #e1f3ff;
+}
+.current-month-cell {
+  background-color: #fff;
+}
+button {
+  font-size: 18px;
+  width: 130px;
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#year {
+  user-select: none;
+}
